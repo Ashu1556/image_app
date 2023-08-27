@@ -1,0 +1,10 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(200px, 1fr)
+  ); /* Adjust column width as needed */
+  grid-auto-rows: minmax(200px, auto); /* Adjust row height as needed */
+  gap: 10px; /* Adjust the gap between grid items */
+  padding: 10px;
+}
